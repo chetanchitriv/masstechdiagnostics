@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<div class="col-lg-12 col-md-12">
+    <form [formGroup]="selectvendor" (ngSubmit)='onSubmit()'>
+        <div class="add_listing_info">
+            <div class="form-group">
+                <label class="label-title">Select Vendor</label>
+                <select type="text" class="form-control" formControlName="selectedVendor" placeholder="Select Vendor">
+                    <option>option1</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <a><input type="submit" class="btn" value="Submit"></a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div id="titlebar">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Add Vender</h2>
+            <!-- Listings -->
+            <div class="col-lg-12 col-md-12">
+                <form [formGroup]="vendorOutsourceForm" (ngSubmit)='onSubmit()'>
+                    <div class="add_listing_info">
+                        <div class="form-group">
+                            <label class="label-title">Patient Name</label>
+                            <input type="text" class="form-control" formControlName="patientName" placeholder="Patient Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label-title">Sample Taken</label>
+                            <input type="text" class="form-control" formControlName="sample" placeholder="Sample Taken">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label-title">Age</label>
+                            <input type="text" class="form-control" formControlName="age" placeholder="Age">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label-title">Date</label>
+                            <input type="date" class="form-control" formControlName="date" placeholder="Date">
+                        </div>
+                        <div class="form-group">
+                            <label class="label-title">Amount Paid</label>
+                            <input type="text" class="form-control" formControlName="amountPaid" placeholder="Amount Paid">
+                        </div>
+                        <div class="form-group">
+                            <label class="label-title">Amount Balance</label>
+                            <input type="text" class="form-control" formControlName="amountBalance" placeholder="Amount Balance">
+                        </div>
+                        <div class="form-group">
+                            <a routerLink="/dashboard/venderoutsourcelist"><input type="submit" class="btn" value="Submit"></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

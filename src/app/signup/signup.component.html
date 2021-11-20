@@ -1,0 +1,35 @@
+<section class="primary-bg">
+    <div class="container">
+        <div id="login_signup">
+            <div class="form_wrap_m">
+                <div class="white_box">
+                    <h3>Sign Up</h3>
+                    <form [formGroup]="signupForm" (ngSubmit)='onSubmit()'>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" formControlName="username" placeholder="Username">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control" formControlName="password" placeholder="Password" autoComplete="new-password">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control" formControlName="confirmPassword" placeholder="Confirm Password" autoComplete="">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" formControlName="email" placeholder="Email Address" autocomplete="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-block" value="Sign Up">
+                        </div>
+                    </form>
+                    <p>Already have an account? <a routerLink="/login">Sign In</a></p>
+                    <!-- <div class="back_home"><a href="index.html" class="btn outline-btn btn-sm"><i class="fa fa-angle-double-left"></i> Back to Home</a></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,26 @@
+<section class="primary-bg">
+    <div class="container">
+        <div id="login_signup">
+            <div class="form_wrap_m">
+                <div class="white_box">
+                    <h3>Hey, Welcome Back!</h3>
+                    <form [formGroup]="loginForm" (ngSubmit)='onSubmit()'>
+                        <div class="form-group">
+                            <input type="text" class="form-control" formControlName="username" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" formControlName="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <a>
+                                <input type="submit" routerLink="/dashboard/register" class="btn btn-block" value="Login"></a>
+                        </div>
+                    </form>
+                    <p>Don't have an account? <a routerLink="/signup" routerLinkActive="router-link-active">Signup Here</a></p>
+                    <p><a routerLink="/forget-password">Forget password?</a></p>
+                    <!-- <div class="back_home"><a  class="btn outline-btn btn-sm"><i class="fa fa-angle-double-left"></i> Back to Home</a></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

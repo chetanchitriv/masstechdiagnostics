@@ -1,0 +1,49 @@
+<!-- Navigation -->
+<div id="dashboard-nav" class="dashboard-nav">
+    <div class="navbar-header">
+        <div class="logo">
+            <a><img src="assets/images/mtd-logo3.png" alt="image" /></a>
+        </div>
+    </div>
+    <ul>
+        <li class="active"><a routerLink="/dashboard/register"><i class="fa fa-address-book"></i> Register</a></li>
+        <li><a routerLink="/dashboard/master"><i class="fa fa-address-card"></i> Master</a> </li>
+        <li><a data-toggle="dropdown"><i class="fa fa-star-o"></i> Vender</a>
+            <ul class="dropdown-menu" aria-labelledby="MLabel">
+                <li><a routerLink="/dashboard/addvender">Add Venders</a></li>
+                <li><a routerLink="/dashboard/venderoutsource">Vender Outsource</a></li>
+
+            </ul>
+        </li>
+
+        <li><a data-toggle="dropdown"><i class="fa fa-sitemap"></i> Branch</a>
+            <ul class="dropdown-menu" aria-labelledby="MLabel">
+                <li>
+                    <a routerLink="/dashboard/walkin">Walk In </a>
+                </li>
+                <li><a routerLink="/dashboard/homecollection">Home Collection</a></li>
+                <li>
+                    <a routerLink="/dashboard/collectioncenter">Collection Center</a>
+                </li>
+                <li>
+                    <a routerLink="/dashboard/picuppoint">Pick Up Point</a>
+                </li>
+                <li>
+                    <a routerLink="/dashboard/sis">SIS</a>
+                </li>
+            </ul>
+        </li>
+
+        <li><a data-toggle="dropdown"><i class="fa fa-calculator"></i> Billing</a>
+            <ul class="dropdown-menu" aria-labelledby="MLabel">
+                <li><a>Active <span class="nav-tag green">6</span></a></li>
+                <li><a>Add Event</a></li>
+            </ul>
+        </li>
+
+        <li><a><i class="fa fa-user-o"></i>  Profile</a></li>
+        <li><a><i class="fa fa-power-off"></i> Logout</a></li>
+        <li><a><i class="fa fa-arrow-circle-right"></i>Collapse Menu</a></li>
+    </ul>
+</div>
+<!-- Navigation / End -->

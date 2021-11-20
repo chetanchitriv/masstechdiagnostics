@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<div id="titlebar">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Add Vender</h2>
+            <!-- Listings -->
+            <div class="col-lg-12 col-md-12">
+                <form [formGroup]="addVendorForm" (ngSubmit)='onSubmit()'>
+                    <div class="add_listing_info">
+                        <div class="form-group">
+                            <label class="label-title">Vendor Name</label>
+                            <input type="text" class="form-control" formControlName="addVendor" placeholder="Vendor Name">
+                        </div>
+                        <div class="form-group">
+                            <a routerLink="/dashboard/vendorlist"><input type="submit" class="btn" value="Submit"></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
