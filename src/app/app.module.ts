@@ -37,6 +37,7 @@ import { CollectioncenterComponent } from './admin/branch/collection-center/coll
 import { PicuppointComponent } from './admin/branch/pick-up/picuppoint/picuppoint.component';
 import { SisComponent } from './admin/branch/S-I-S/sis/sis.component';
 import { PaymentComponent } from './admin/billing/payment/payment.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -79,7 +80,8 @@ import { PaymentComponent } from './admin/billing/payment/payment.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

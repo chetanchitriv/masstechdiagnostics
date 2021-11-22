@@ -1,0 +1,193 @@
+{
+  "registers": [
+    {
+      "id": 1,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500",
+      "Discount": "20%"
+    },
+    {
+      "id": 2,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500",
+      "Discount": "20%"
+    },
+    {
+      "id": 3,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500",
+      "Discount": "20%"
+    }
+  ],
+  "walkins": [
+    {
+      "id": 1,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500",
+      "Discount": "20%"
+    },
+    {
+      "id": 2,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500",
+      "Discount": "20%"
+    },
+    {
+      "id": 3,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500",
+      "Discount": "20%"
+    }
+  ],
+  "homecollections": [
+    {
+      "id": 1,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500",
+      "Discount": "20%"
+    },
+    {
+      "id": 2,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500",
+      "Discount": "20%"
+    },
+    {
+      "id": 3,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500",
+      "Discount": "20%"
+    }
+  ],
+  "collectioncenters": [
+    {
+      "id": 1,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500"
+    },
+    {
+      "id": 2,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500"
+    },
+    {
+      "id": 3,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500"
+    }
+  ],
+  "pickuppoints": [
+    {
+      "id": 1,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500"
+    },
+    {
+      "id": 2,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500"
+    },
+    {
+      "id": 3,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500"
+    }
+  ],
+  "siss": [
+    {
+      "id": 1,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500"
+    },
+    {
+      "id": 2,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500"
+    },
+    {
+      "id": 3,
+      "test_code": "T1",
+      "test_name": "CBC",
+      "lab_name": "lab1",
+      "patient_name": "sahil",
+      "MRP": "500"
+    }
+  ],
+  "masters": [
+    {
+      "test_code": "g",
+      "test_name": "f",
+      "mrp": "56",
+      "id": 6
+    },
+    {
+      "test_code": "g",
+      "test_name": "f",
+      "mrp": "56",
+      "id": 8
+    },
+    {
+      "testCode": "fjl",
+      "testName": "fj",
+      "mrp": "45",
+      "id": 13
+    },
+    {
+      "testCode": "",
+      "testName": "",
+      "mrp": "",
+      "id": 18
+    }
+  ]
+}

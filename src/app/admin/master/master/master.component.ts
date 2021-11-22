@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import { MasterService } from '../../services/master.service';
 
 @Component({
   selector: 'app-master',
@@ -8,7 +10,10 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class MasterComponent implements OnInit {
   master:any=FormGroup; 
-  constructor(private fm:FormBuilder) { }
+  senddata: any={};
+  constructor(private fm:FormBuilder,
+    private masterservice:MasterService,
+    private router:Router) { }
 
   ngOnInit(): void {
     this.master = this.fm.group({
@@ -21,8 +26,14 @@ export class MasterComponent implements OnInit {
       
     });
   }
-  onSubmit(){
-    console.log("formdata",this.master.value);
-    
+  create(){
+    this.masterservice.createMaster(this.master.value).subscribe(
+      (res)=>{
+        this.router.navigate(["/dashboard/masterlist"])
+      },
+      (err)=>{
+
+      }
+    );
   }
 }

@@ -56,7 +56,7 @@ const routes: Routes = [
       { path: 'register', component: RegisterComponent, },
       { path: 'master', component: MasterComponent },
       { path: 'masterlist', component: MasterlistComponent },
-      { path: 'editmaster', component:  EditmasterComponent }, 
+      { path: 'editmaster/:id', component:  EditmasterComponent }, 
       { path: 'registerlist', component: RegisterlistComponent },
       { path: 'addvender', component: AddvenderComponent },
       { path: 'vendorlist', component: ListvenderComponent },
