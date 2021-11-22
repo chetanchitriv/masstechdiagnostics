@@ -10,16 +10,19 @@
                 </select>
             </div>
             <div class="form-group">
-                <a><input type="submit" class="btn" value="Submit"></a>
+                <a><input type="submit" (click)="addpatient()" class="btn" value="Add patient"></a>
+                <a><input type="submit" (click)="viewlist()" class="btn mx-3" value="View Patient List"></a>
             </div>
+            
         </div>
     </form>
 </div>
 
+<div *ngIf="patient">
 <div id="titlebar">
     <div class="row">
         <div class="col-md-12">
-            <h2>Add Vender</h2>
+            <h2>Add Patient</h2>
             <!-- Listings -->
             <div class="col-lg-12 col-md-12">
                 <form [formGroup]="vendorOutsourceForm" (ngSubmit)='onSubmit()'>
@@ -59,4 +62,9 @@
             </div>
         </div>
     </div>
+</div>
+</div>
+
+<div *ngIf="list">
+<app-listvederoutsource></app-listvederoutsource>
 </div>

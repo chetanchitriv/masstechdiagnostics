@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { PaymentComponent } from './admin/billing/payment/payment.component';
 import { CollectioncenterComponent } from './admin/branch/collection-center/collectioncenter/collectioncenter.component';
 import { CollectioncentereditComponent } from './admin/branch/collection-center/collectioncenteredit/collectioncenteredit.component';
 import { CollectioncenterlistComponent } from './admin/branch/collection-center/collectioncenterlist/collectioncenterlist.component';
@@ -77,8 +78,8 @@ const routes: Routes = [
       { path: 'sis', component: SisComponent },
       { path: 'sislist', component: SislistComponent },
       { path: 'sisedit', component:  SiseditComponent },
+      { path: 'billing', component:  PaymentComponent },
       
-
     ],
   }]
 

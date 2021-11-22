@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-
 <!-- Content -->
 <div class="dashboard-content" style="margin-left:-60px; margin-top: -40px;">
     <!-- Titlebar -->
     <div id="titlebar">
         <div class="row">
             <div class="col-md-12">
-                <h2>Vendor OutSource List</h2>
+                <h2>Vendor Outsource List</h2>
             </div>
         </div>
     </div>
     <!-- search bar -->
     <div class="form-outline mb-4">
-        <input type="search" class="form-control" id="datatable-search-input">
         <label class="form-label" for="datatable-search-input">Search</label>
+        <input type="search" class="form-control" placeholder="Search" id="datatable-search-input">
+
     </div>
     <div id="datatable">
     </div>
@@ -28,184 +28,301 @@
             <table class="table table-hover table">
                 <thead>
                     <tr>
-                        <th scope="col" style="width: 130px;">Test Code</th>
-                        <th scope="col" style="width: 130px;">Test Name</th>
-                        <th scope="col" style="width: 130px;">MRP</th>
-                        <th scope="col" style="width: 150px;">update</th>
+                        <th scope="col" style="width: 130px;">Sr No.</th>
+                        <th scope="col" style="width: 130px;">Patient Name</th>
+                        <th scope="col" style="width: 130px;">Sample Taken</th>
+                        <th scope="col" style="width: 130px;">Age</th>
+                        <th scope="col" style="width: 130px;">Date</th>
+                        <th scope="col" style="width: 150px;">Amount Paid</th>
+                        <th scope="col" style="width: 130px;">Amount Balance</th>
+                        <th scope="col" style="width: 130px;">Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>123</td>
+                        <td>Mark </td>
+                        <td>Blood</td>
+                        <td>22</td>
+                        <td>11-12-2021</td>
+                        <td>900</td>
+                        <td>100</td>
+                        
                         <td>
                             <!-- Call to action buttons -->
                             <ul class="list-inline m-0">
 
                                 <li class="list-inline-item">
-                                    <a routerLink="/dashboard/editvender"> <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" style="width:30px;"><i class="fa fa-edit"></i></button></a>
+                                    <a routerLink="/dashboard/editvender"> <button
+                                            class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                            data-placement="top" title="Edit" style="width:30px;"><i
+                                                class="fa fa-edit"></i></button></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" style="width:30px;"><i class="fa fa-trash"></i></button>
+                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                        data-placement="top" title="Delete" style="width:30px;"><i
+                                            class="fa fa-trash"></i></button>
                                 </li>
                             </ul>
                         </td>
+                      
+                    </tr>
+                    
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark </td>
+                        <td>Blood</td>
+                        <td>22</td>
+                        <td>11-12-2021</td>
+                        <td>900</td>
+                        <td>100</td>
+                        
+                        <td>
+                            <!-- Call to action buttons -->
+                            <ul class="list-inline m-0">
+
+                                <li class="list-inline-item">
+                                    <a routerLink="/dashboard/editvender"> <button
+                                            class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                            data-placement="top" title="Edit" style="width:30px;"><i
+                                                class="fa fa-edit"></i></button></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                        data-placement="top" title="Delete" style="width:30px;"><i
+                                            class="fa fa-trash"></i></button>
+                                </li>
+                            </ul>
+                        </td>
+                      
                     </tr>
                     <tr>
-                        <th scope="row">2</th>
-                        <td>@fat</td>
-                        <td>125</td>
+                        <th scope="row">1</th>
+                        <td>Mark </td>
+                        <td>Blood</td>
+                        <td>22</td>
+                        <td>11-12-2021</td>
+                        <td>900</td>
+                        <td>100</td>
+                        
                         <td>
                             <!-- Call to action buttons -->
                             <ul class="list-inline m-0">
 
                                 <li class="list-inline-item">
-                                    <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" style="width:30px;"><i class="fa fa-edit"></i></button>
+                                    <a routerLink="/dashboard/editvender"> <button
+                                            class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                            data-placement="top" title="Edit" style="width:30px;"><i
+                                                class="fa fa-edit"></i></button></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" style="width:30px;"><i class="fa fa-trash"></i></button>
+                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                        data-placement="top" title="Delete" style="width:30px;"><i
+                                            class="fa fa-trash"></i></button>
                                 </li>
                             </ul>
                         </td>
-
+                      
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td>Larry the Bird</td>
-                        <td>123</td>
+                        <th scope="row">1</th>
+                        <td>Mark </td>
+                        <td>Blood</td>
+                        <td>22</td>
+                        <td>11-12-2021</td>
+                        <td>900</td>
+                        <td>100</td>
+                        
                         <td>
                             <!-- Call to action buttons -->
                             <ul class="list-inline m-0">
 
                                 <li class="list-inline-item">
-                                    <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" style="width:30px;"><i class="fa fa-edit"></i></button>
+                                    <a routerLink="/dashboard/editvender"> <button
+                                            class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                            data-placement="top" title="Edit" style="width:30px;"><i
+                                                class="fa fa-edit"></i></button></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" style="width:30px;"><i class="fa fa-trash"></i></button>
+                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                        data-placement="top" title="Delete" style="width:30px;"><i
+                                            class="fa fa-trash"></i></button>
                                 </li>
                             </ul>
                         </td>
+                      
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark </td>
+                        <td>Blood</td>
+                        <td>22</td>
+                        <td>11-12-2021</td>
+                        <td>900</td>
+                        <td>100</td>
+                        
+                        <td>
+                            <!-- Call to action buttons -->
+                            <ul class="list-inline m-0">
+
+                                <li class="list-inline-item">
+                                    <a routerLink="/dashboard/editvender"> <button
+                                            class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                            data-placement="top" title="Edit" style="width:30px;"><i
+                                                class="fa fa-edit"></i></button></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                        data-placement="top" title="Delete" style="width:30px;"><i
+                                            class="fa fa-trash"></i></button>
+                                </li>
+                            </ul>
+                        </td>
+                      
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark </td>
+                        <td>Blood</td>
+                        <td>22</td>
+                        <td>11-12-2021</td>
+                        <td>900</td>
+                        <td>100</td>
+                        
+                        <td>
+                            <!-- Call to action buttons -->
+                            <ul class="list-inline m-0">
+
+                                <li class="list-inline-item">
+                                    <a routerLink="/dashboard/editvender"> <button
+                                            class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                            data-placement="top" title="Edit" style="width:30px;"><i
+                                                class="fa fa-edit"></i></button></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                        data-placement="top" title="Delete" style="width:30px;"><i
+                                            class="fa fa-trash"></i></button>
+                                </li>
+                            </ul>
+                        </td>
+                      
                     </tr>
                     <tr>
-                        <th scope="row">4</th>
-                        <td>Larry the Bird</td>
-                        <td>123</td>
+                        <th scope="row">1</th>
+                        <td>Mark </td>
+                        <td>Blood</td>
+                        <td>22</td>
+                        <td>11-12-2021</td>
+                        <td>900</td>
+                        <td>100</td>
+                        
                         <td>
                             <!-- Call to action buttons -->
                             <ul class="list-inline m-0">
 
                                 <li class="list-inline-item">
-                                    <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" style="width:30px;"><i class="fa fa-edit"></i></button>
+                                    <a routerLink="/dashboard/editvender"> <button
+                                            class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                            data-placement="top" title="Edit" style="width:30px;"><i
+                                                class="fa fa-edit"></i></button></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" style="width:30px;"><i class="fa fa-trash"></i></button>
+                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                        data-placement="top" title="Delete" style="width:30px;"><i
+                                            class="fa fa-trash"></i></button>
                                 </li>
                             </ul>
                         </td>
+                      
                     </tr>
                     <tr>
-                        <th scope="row">5</th>
-                        <td>Larry the Bird</td>
-                        <td>123</td>
+                        <th scope="row">1</th>
+                        <td>Mark </td>
+                        <td>Blood</td>
+                        <td>22</td>
+                        <td>11-12-2021</td>
+                        <td>900</td>
+                        <td>100</td>
+                        
                         <td>
                             <!-- Call to action buttons -->
                             <ul class="list-inline m-0">
 
                                 <li class="list-inline-item">
-                                    <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" style="width:30px;"><i class="fa fa-edit"></i></button>
+                                    <a routerLink="/dashboard/editvender"> <button
+                                            class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                            data-placement="top" title="Edit" style="width:30px;"><i
+                                                class="fa fa-edit"></i></button></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" style="width:30px;"><i class="fa fa-trash"></i></button>
+                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                        data-placement="top" title="Delete" style="width:30px;"><i
+                                            class="fa fa-trash"></i></button>
                                 </li>
                             </ul>
                         </td>
+                      
                     </tr>
                     <tr>
-                        <th scope="row">6</th>
-                        <td>Larry the Bird</td>
-                        <td>123</td>
+                        <th scope="row">1</th>
+                        <td>Mark </td>
+                        <td>Blood</td>
+                        <td>22</td>
+                        <td>11-12-2021</td>
+                        <td>900</td>
+                        <td>100</td>
+                        
                         <td>
                             <!-- Call to action buttons -->
                             <ul class="list-inline m-0">
 
                                 <li class="list-inline-item">
-                                    <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" style="width:30px;"><i class="fa fa-edit"></i></button>
+                                    <a routerLink="/dashboard/editvender"> <button
+                                            class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                            data-placement="top" title="Edit" style="width:30px;"><i
+                                                class="fa fa-edit"></i></button></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" style="width:30px;"><i class="fa fa-trash"></i></button>
+                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                        data-placement="top" title="Delete" style="width:30px;"><i
+                                            class="fa fa-trash"></i></button>
                                 </li>
                             </ul>
                         </td>
+                      
                     </tr>
                     <tr>
-                        <th scope="row">7</th>
-                        <td>Larry the Bird</td>
-                        <td>123</td>
+                        <th scope="row">1</th>
+                        <td>Mark </td>
+                        <td>Blood</td>
+                        <td>22</td>
+                        <td>11-12-2021</td>
+                        <td>900</td>
+                        <td>100</td>
+                        
                         <td>
                             <!-- Call to action buttons -->
                             <ul class="list-inline m-0">
 
                                 <li class="list-inline-item">
-                                    <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" style="width:30px;"><i class="fa fa-edit"></i></button>
+                                    <a routerLink="/dashboard/editvender"> <button
+                                            class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                            data-placement="top" title="Edit" style="width:30px;"><i
+                                                class="fa fa-edit"></i></button></a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" style="width:30px;"><i class="fa fa-trash"></i></button>
+                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip"
+                                        data-placement="top" title="Delete" style="width:30px;"><i
+                                            class="fa fa-trash"></i></button>
                                 </li>
                             </ul>
                         </td>
+                      
                     </tr>
-                    <tr>
-                        <th scope="row">8</th>
-                        <td>Larry the Bird</td>
-                        <td>123</td>
-                        <td>
-                            <!-- Call to action buttons -->
-                            <ul class="list-inline m-0">
-
-                                <li class="list-inline-item">
-                                    <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" style="width:30px;"><i class="fa fa-edit"></i></button>
-                                </li>
-                                <li class="list-inline-item">
-                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" style="width:30px;"><i class="fa fa-trash"></i></button>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">9</th>
-                        <td>Larry the Bird</td>
-                        <td>123</td>
-                        <td>
-                            <!-- Call to action buttons -->
-                            <ul class="list-inline m-0">
-
-                                <li class="list-inline-item">
-                                    <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" style="width:30px;"><i class="fa fa-edit"></i></button>
-                                </li>
-                                <li class="list-inline-item">
-                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" style="width:30px;"><i class="fa fa-trash"></i></button>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">10</th>
-                        <td>Larry the Bird</td>
-                        <td>123</td>
-                        <td>
-                            <!-- Call to action buttons -->
-                            <ul class="list-inline m-0">
-
-                                <li class="list-inline-item">
-                                    <button class="btn btn-success btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Edit" style="width:30px;"><i class="fa fa-edit"></i></button>
-                                </li>
-                                <li class="list-inline-item">
-                                    <button class="btn btn-danger btn-sm rounded-0" type="button" data-toggle="tooltip" data-placement="top" title="Delete" style="width:30px;"><i class="fa fa-trash"></i></button>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
+                    
                 </tbody>
             </table>
 

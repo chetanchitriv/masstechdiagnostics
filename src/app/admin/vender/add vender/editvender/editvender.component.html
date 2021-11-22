@@ -8,8 +8,21 @@
                 <form [formGroup]="editVendorForm" (ngSubmit)='onSubmit()'>
                     <div class="add_listing_info">
                         <div class="form-group">
-                            <label class="label-title">Vendor Name</label>
+                            <label class="label-title">Name</label>
                             <input type="text" class="form-control" formControlName="Vendorna" placeholder="Vendor Name">
+                        </div>
+                        <div class="form-group">
+                            <label class="label-title"> Adress</label>
+                            <input type="text" class="form-control" formControlName="addVendor" placeholder="Adress ">
+                        </div>
+                        <div class="form-group">
+                            <label class="label-title"> Mail</label>
+                            <input type="text" class="form-control" formControlName="addVendor" placeholder="mail">
+                        </div>
+                        <div class="form-group">
+                            <label class="label-title"> Mob No.</label>
+                            <input type="text" class="form-control" formControlName="addVendor" placeholder=" Mob No."><br>
+                            <input type="text" class="form-control" formControlName="addVendor" placeholder=" Alternate Mob No.">
                         </div>
                         <div class="form-group">
                             <a routerLink="/dashboard/vendorlist"><input type="submit" class="btn" value="Update"></a>

@@ -8,7 +8,10 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class VenderoutsourceComponent implements OnInit {
   vendorOutsourceForm:any = FormGroup;
-  selectvendor:any=FormGroup
+  selectvendor:any=FormGroup;
+  patient:boolean=false;
+  list:boolean=false;
+
   constructor(private formBuilder: FormBuilder ) { }
 
 
@@ -28,7 +31,14 @@ export class VenderoutsourceComponent implements OnInit {
     });  
   
   }
-  
+  addpatient(){
+    this.patient=true
+    this.list=false
+  }
+  viewlist(){
+    this.list=true
+    this.patient=false
+  }
   onSubmit() {
     console.log( this.vendorOutsourceForm.value)
   }

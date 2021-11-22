@@ -17,8 +17,10 @@ export class WalkineditComponent implements OnInit {
       testCode:['', [Validators.required]],
         
       testName:['', [Validators.required]],
-     
+      labName: ['', [Validators.required]],
+     patientName: ['', [Validators.required]],
       mrp:['', [Validators.required]],
+      discount: ['',[Validators.required]],
       
     });
   }

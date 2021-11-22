@@ -36,6 +36,7 @@ import { HomecollectionComponent } from './admin/branch/home-collection/homecoll
 import { CollectioncenterComponent } from './admin/branch/collection-center/collectioncenter/collectioncenter.component';
 import { PicuppointComponent } from './admin/branch/pick-up/picuppoint/picuppoint.component';
 import { SisComponent } from './admin/branch/S-I-S/sis/sis.component';
+import { PaymentComponent } from './admin/billing/payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +72,8 @@ import { SisComponent } from './admin/branch/S-I-S/sis/sis.component';
     SislistComponent,
     SiseditComponent,
     WalkineditComponent,
-    WalkinlistComponent
+    WalkinlistComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,

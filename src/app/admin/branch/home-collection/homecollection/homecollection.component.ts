@@ -21,6 +21,7 @@ export class HomecollectionComponent implements OnInit {
     labName: ['', [Validators.required]],
     patientName: ['', [Validators.required]],
     mrp: ['', [Validators.required]],
+    discount:['',[ Validators.required]],
     })
   }
   onsubmit(){
