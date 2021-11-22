@@ -189,5 +189,71 @@
       "mrp": "",
       "id": 18
     }
-  ]
+  ],
+  "login": [
+    {
+      "id": 1,
+      "username": "user01",
+      "password": "pass"
+      
+      }
+  ],
+
+  "signup": [
+    {
+      "id": 1,
+      "username": "user01",
+      "password": "pass",
+      "confirm-password":"pass",
+      "e-mail":"abc@gmail.com"
+      }
+  ],
+
+
+  "forget-password": [
+    {
+      "id": 1,
+      "e-mail": "abc@gmail.com"
+
+      
+      }
+  ],
+ 
+"addPatient": [
+  {
+    "id": 1,
+    "patient-name": "mark",
+    "sample-taken": "blood",
+    "Age": "33",
+    "Date": "blood",
+    "amount-paid": "900",
+    "amount-balance": "100"
+  }
+],
+"Vendors": [{
+  "id": 1,
+  "name": "john",
+  "address": "New-york",
+  "email": "john@gmail.com",
+  "mob_no": "123456789",
+  "mob_no_alt": "123654987"
+},
+{
+  "id": 2,
+  "name": "john",
+  "address": "New-york",
+  "email": "john@gmail.com",
+  "mob_no": "123456789",
+  "mob_no_alt": "123654987"
+},
+{
+  "id": 3,
+  "name": "john", 
+  "address": "New-york",
+  "email": "john@gmail.com",
+  "mob_no": "123456789",
+  "mob_no_alt": "123654987"
+}
+]
+
 }
